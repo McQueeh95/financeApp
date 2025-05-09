@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_icon"
+        android:title="Головна"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/transactionFragment"
+        android:icon="@drawable/ic_transaction"
+        android:title="Транзакції"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/CategoryFragment"
+        android:icon="@drawable/ic_category"
+        android:title="Категорії"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/StatisticFragment"
+        android:icon="@drawable/ic_statistics"
+        android:title="Статистика"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/SettingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Налаштування"
+        app:showAsAction="ifRoom"/>
+</menu>

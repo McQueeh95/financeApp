@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="category_array">
+        <item>Продукти</item>
+        <item>Розваги</item>
+        <item>Одяг</item>
+        <item>Зарплата</item>
+        <item>Проїзд</item>
+    </string-array>
+</resources>
