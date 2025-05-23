@@ -81,7 +81,11 @@ class HomeFragment : Fragment() {
         }
 
         viewModel.currentExpenses.observe(viewLifecycleOwner) { updateExpenses ->
-            binding.CurrentOutcome.text = String.format("Витрати: %.2f₴", updateExpenses)
+            if(updateExpenses >= 0) {
+                binding.CurrentOutcome.text = String.format("Витрати: %.2f₴", updateExpenses)
+            }
+            else
+                binding.CurrentOutcome.text = String.format("Витрати: %.2f₴", updateExpenses * -1)
 
         }
 
